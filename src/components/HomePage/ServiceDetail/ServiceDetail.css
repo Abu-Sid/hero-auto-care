@@ -1,0 +1,17 @@
+.image {
+  position: relative;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.heading {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 4px 0;
+}
+.heading p {
+  font-weight: 700;
+  font-size: 1.1rem;
+}

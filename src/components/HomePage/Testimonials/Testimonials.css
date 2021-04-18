@@ -1,0 +1,14 @@
+.testimonials .container {
+  /* background-image: url(../../../Image/dell-1.jpg); */
+  background-repeat: no-repeat;
+  background-position: cover;
+  /* background-size: 150px; */
+}
+.testimonials .card {
+  border-color: transparent;
+}
+
+.testimonials .card .card-footer {
+  background: transparent;
+  border: 0;
+}

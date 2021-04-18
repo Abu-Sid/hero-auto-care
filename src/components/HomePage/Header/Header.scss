@@ -1,0 +1,49 @@
+$buttonColor: #7d95e6;
+$textColor: #fff;
+$normalText: #16322e;
+$lightBackground: #f1f6f4;
+$mute: #6d6f74;
+
+%button-shared {
+  background-color: $buttonColor;
+  color: $textColor;
+  border: none;
+}
+
+.background {
+  background-image: url("../../../Image/banner.jpeg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  //   background-attachment: fixed;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+.bg-color {
+  background-color: #00000091;
+  height: 100%;
+}
+.btn {
+  @extend %button-shared;
+}
+h1 {
+  color: $normalText;
+}
+.price {
+  color: $buttonColor;
+}
+.shared-color {
+  color: $normalText;
+}
+.shared-bg {
+  background-color: $lightBackground;
+}
+.footer-bg {
+  background-color: $buttonColor;
+}
+.lightTextColor {
+  color: $buttonColor;
+}
+.text {
+  color: $mute;
+}
