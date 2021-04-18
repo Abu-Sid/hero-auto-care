@@ -40,7 +40,7 @@ const Feature = () => {
     return (
         <div className=" pt-5">
             <div className="text-center">
-                <img src={whyHero} alt=""/>
+                <img style={{width:'60%'}}src={whyHero} alt=""/>
             </div>
             <div className="d-flex flex-wrap justify-content-center mt-3">
                 {

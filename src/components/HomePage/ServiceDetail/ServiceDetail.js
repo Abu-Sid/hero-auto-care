@@ -10,7 +10,6 @@ const ServiceDetail = ({ service }) => {
         <Link to={`/checkout/${_id}`}>
           <div
             className="card m-5 shared-bg shadow animation"
-            style={{ width: "20rem", border: "none" }}
           >
             <img
               src={imageURL}

@@ -5,7 +5,7 @@ const Header = () => {
         <>
         <div className="background">
                 <div className="bg-color">
-                    <div className='container text-left' style={{paddingTop:"4rem",marginLeft:"5rem"}}>
+                    <div className='container text-left feature'>
                         <h1 className="text-white pt-5 " ><strong>WE DO IT ALL</strong></h1>
                         
                         <h3 className="text-white pt-5 " ><strong>FROM OIL CHANGES TO INSPECTIONS <br/> WE'RE HERE TO KEEP YOUR CAR RUNNING.</strong></h3>

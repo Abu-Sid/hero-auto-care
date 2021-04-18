@@ -15,7 +15,10 @@
   font-weight: 700;
   font-size: 1.1rem;
 }
-
+.animation {
+  width: 20rem;
+  border: none;
+}
 .animation :hover {
   animation: animationFrames linear 1s;
   animation-iteration-count: 1;
@@ -70,5 +73,11 @@
   }
   100% {
     -webkit-transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .animation {
+    width: 16rem;
+    border: none;
   }
 }
