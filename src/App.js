@@ -5,11 +5,11 @@ import AddService from "./components/Admin/AddService/AddService";
 import AllOrder from "./components/Admin/AllOrder/AllOrder";
 import MakeAdmin from "./components/Admin/MakeAdmin/MakeAdmin";
 import ManageProduct from "./components/Admin/ManageProduct/ManageProduct";
-import Checkout from "./components/Checkout/Checkout";
+import Checkout from "./components/Customer/Checkout/Checkout";
+import Order from "./components/Customer/Order/Order";
 import Home from "./components/HomePage/Home/Home";
 import Login from "./components/Login/Login";
 import Navbar from "./components/Navbar/Navbar";
-import Order from "./components/Order/Order";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 
 

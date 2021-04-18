@@ -4,7 +4,7 @@ import React from 'react';
 const Testimonial = ({testimonial}) => {
     const {name,review} =testimonial;
     return (
-        <div className="card shadow rounded-5">
+        <div className="card shadow rounded-5 card-animation">
              <Grid item align="center">
              <RateReviewIcon  fontSize="large"/>
              </Grid>

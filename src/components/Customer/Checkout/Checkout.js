@@ -1,7 +1,7 @@
 import { Table, TableBody, TableCell, TableHead, TableRow } from '@material-ui/core';
 import React, { useContext } from 'react';
 import { useParams } from 'react-router';
-import { ProductContext, UserContext } from '../../App';
+import { ProductContext, UserContext } from '../../../App';
 import Payment from './Payment';
 
   
@@ -54,7 +54,7 @@ const Checkout = () => {
                     </TableRow>
                 </TableBody>
             </Table>
-            <div style={{textAlign:'center',marginBottom:"0rem"}}>
+            <div style={{textAlign:'center',marginBottom:"3rem"}}>
                 <h1>Add Your Payment </h1>
             <Payment handlePayment={handleCheckout} />
             </div>

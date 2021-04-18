@@ -1,7 +1,7 @@
 import { Card, CardContent, CardMedia, Container, Grid, makeStyles, Typography } from '@material-ui/core';
 import React, { useContext, useEffect, useState } from 'react';
-import { UserContext } from "../../App";
-import Sidebar from '../Admin/Sidebar/Sidebar';
+import { UserContext } from "../../../App";
+import Sidebar from '../../Admin/Sidebar/Sidebar';
 const useStyles = makeStyles((theme) => ({
     icon: {
       marginRight: theme.spacing(2),
@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
       flexDirection: 'column',
     },
     cardMedia: {
-      paddingTop: '56.25%', // 16:9
+      paddingTop: '100%', // 16:9
     },
     cardContent: {
       flexGrow: 1,

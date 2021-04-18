@@ -23,7 +23,7 @@ const services = [
 
 const Location = () => {
     return (
-        <div className=" pt-5">
+        <div>
             <div className="section-header text-center">
                    <h1 className="text-primary text-uppercase">Area we serve</h1>
                </div>

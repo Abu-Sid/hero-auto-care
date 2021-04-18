@@ -1,0 +1,11 @@
+.provider {
+  margin-top: 20%;
+  margin-left: 5rem;
+}
+@media only screen and (max-width: 600px) {
+  .provider {
+    margin-top: 0%;
+    margin-left: 0rem;
+    font-size: 0px;
+  }
+}

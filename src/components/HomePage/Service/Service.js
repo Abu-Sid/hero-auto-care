@@ -15,16 +15,17 @@ const Services = () => {
       });
   }, [setOrderProduct]);
     return (
-        <section className="services-container mt-5">
+        <section className="services-container mt-5" style={{ background:"radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(98,98,176,1) 49%, rgba(141,169,203,1) 92%)"}}>
             <div className="text-center">
-                <h1 className="text-primary text-uppercase ">Services at Your Fingertips</h1>
+                <h1 className="text-white text-uppercase pt-3">Services at Your Fingertips</h1>
             </div>
             <div className="d-flex flex-wrap justify-content-center">
-                <div className="w-100 row mt-5">
+                {serviceData?.length?<div className="w-100 row ">
                     {
                         serviceData?.map(service => <ServiceDetail service={service} key={service._id}></ServiceDetail>)
                     }
-                </div>
+                </div>:
+                <img src="https://assets.website-files.com/5c7fdbdd4e3feeee8dd96dd2/5ce46f8ffd710a2c22c15e48_cust_ami.gif" alt="" />}
             </div>
             <img style={{width:'100%',marginTop:'2rem'}} src={uber} alt=""/>
         </section>

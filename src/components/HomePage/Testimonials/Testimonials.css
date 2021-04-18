@@ -1,8 +1,14 @@
-.testimonials .container {
+.testimonials {
   /* background-image: url(../../../Image/dell-1.jpg); */
   background-repeat: no-repeat;
   background-position: cover;
   /* background-size: 150px; */
+  background: linear-gradient(
+    180deg,
+    rgba(124, 152, 162, 1) 0%,
+    rgba(44, 106, 215, 1) 23%,
+    rgba(230, 224, 232, 0.9990371148459384) 72%
+  );
 }
 .testimonials .card {
   border-color: transparent;
@@ -10,5 +16,17 @@
 
 .testimonials .card .card-footer {
   background: transparent;
-  border: 0;
+  border: 2px;
+}
+.card-animation:hover {
+  animation: animationFrames linear 1s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 0%;
+  -webkit-animation: animationFrames linear 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 0%;
+}
+h1 {
+  font-family: "Lucida Console";
+  font-weight: 900;
 }
